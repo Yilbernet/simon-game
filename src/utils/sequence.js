@@ -12,7 +12,7 @@ const sequence = async(colors) => {
     const green = document.querySelector('.green');
     for (const item of colors) {
         const effect = new Audio('../../assets/button.mp3');
-        effect.volume = 0.5;
+        // effect.volume = 0.5;
         effect.play();
         switch (item) {
             case 1: yellow.classList.toggle('active');

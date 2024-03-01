@@ -43,6 +43,8 @@ function App() {
   return (
     <div className='app'>
       <h1>Simon Game</h1>
+      <p>You have a streak of {colors.length},
+      <br />can you get to {colors.length + 1}?</p>
       <div className='container' onClick={handleClicks}>
         <div id='1' className='color__btn yellow'></div>
         <div id='2' className='color__btn blue'></div>

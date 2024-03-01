@@ -47,6 +47,9 @@ a {
   align-items: center;
   justify-content: space-evenly;
 }
+.app > p {
+  text-align: center;
+}
 .container {
   width: 320px;
   display: grid;
